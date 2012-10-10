@@ -1,0 +1,326 @@
+var tiles_json = [
+    {
+      "tilename": "BA001",
+      "src": "BA001_Quartz.jpg",
+      "price": "4.00",
+      "tilecolor": "Quartz"
+    },
+    {
+      "tilename": "BA002",
+      "src": "BA002_Soft_White.jpg",
+      "price": "4.00",
+      "tilecolor": "Soft White"
+    },
+    {
+      "tilename": "BA003",
+      "src": "BA003_Bright_White.jpg",
+      "price": "4.00",
+      "tilecolor": "Bright White"
+    },
+    {
+      "tilename": "BA201",
+      "src": "BA201_Maple.jpg",
+      "price": "4.00",
+      "tilecolor": "Maple"
+    },
+    {
+      "tilename": "BA202",
+      "src": "BA202_Oak.jpg",
+      "price": "4.00",
+      "tilecolor": "Oak"
+    },
+    {
+      "tilename": "BA203",
+      "src": "BA203_Teak.jpg",
+      "price": "4.00",
+      "tilecolor": "Teak"
+    },
+    {
+      "tilename": "BA204",
+      "src": "BA204_Redwood.jpg",
+      "price": "4.00",
+      "tilecolor": "Redwood"
+    },
+    {
+      "tilename": "BA205",
+      "src": "BA205_Black_Walnut.jpg",
+      "price": "4.00",
+      "tilecolor": "Black Walnut"
+    },
+    {
+      "tilename": "BA206",
+      "src": "BA206_Wenge.jpg",
+      "price": "4.00",
+      "tilecolor": "Wenge"
+    },
+    {
+      "tilename": "BA404",
+      "src": "BA404_Terra_Cotta.jpg",
+      "price": "4.00",
+      "tilecolor": "Terra Cotta"
+    },
+    {
+      "tilename": "BA602",
+      "src": "BA602_Cilantro.jpg",
+      "price": "4.00",
+      "tilecolor": "Cilantro"
+    },
+    {
+      "tilename": "BA603",
+      "src": "BA603_Kelly_Green.jpg",
+      "price": "4.00",
+      "tilecolor": "Kelly Green"
+    },
+    {
+      "tilename": "BA604",
+      "src": "BA604_Forest.jpg",
+      "price": "4.00",
+      "tilecolor": "Forest"
+    },
+    {
+      "tilename": "BA606",
+      "src": "BA606_Spearmint.jpg",
+      "price": "4.00",
+      "tilecolor": "Spearmint"
+    },
+    {
+      "tilename": "BA701",
+      "src": "BA701_Pale_Blue.jpg",
+      "price": "4.00",
+      "tilecolor": "Pale Blue"
+    },
+    {
+      "tilename": "BA703",
+      "src": "BA703_Cerulean.jpg",
+      "price": "4.00",
+      "tilecolor": "Cerulean"
+    },
+    {
+      "tilename": "BA704",
+      "src": "BA704_Turquoise.jpg",
+      "price": "4.00",
+      "tilecolor": "Turquoise"
+    },
+    {
+      "tilename": "BA707",
+      "src": "BA707_Periwinkle.jpg",
+      "price": "4.00",
+      "tilecolor": "Periwinkle"
+    },
+    {
+      "tilename": "BA708",
+      "src": "BA708_Cornflower.jpg",
+      "price": "4.00",
+      "tilecolor": "Cornflower"
+    },
+    {
+      "tilename": "BA711",
+      "src": "BA711_Wintergreen.jpg",
+      "price": "4.00",
+      "tilecolor": "Wintergreen"
+    },
+    {
+      "tilename": "BA712",
+      "src": "BA712_Mint_Julep.jpg",
+      "price": "4.00",
+      "tilecolor": "Mint Julep"
+    },
+    {
+      "tilename": "BA713",
+      "src": "BA713_Marina.jpg",
+      "price": "4.00",
+      "tilecolor": "Marina"
+    },
+    {
+      "tilename": "BA715",
+      "src": "BA715_Washed_Denim.jpg",
+      "price": "4.00",
+      "tilecolor": "Washed Denim"
+    },
+    {
+      "tilename": "BA716",
+      "src": "BA716_Dusty_Blue.jpg",
+      "price": "4.00",
+      "tilecolor": "Dusty Blue"
+    },
+    {
+      "tilename": "BA801",
+      "src": "BA801_Pale_Lilac.jpg",
+      "price": "4.00",
+      "tilecolor": "Pale Lilac"
+    },
+    {
+      "tilename": "BA802",
+      "src": "BA802_Lavender.jpg",
+      "price": "4.00",
+      "tilecolor": "Lavender"
+    },
+    {
+      "tilename": "BA803",
+      "src": "BA803_Light_Purple.jpg",
+      "price": "4.00",
+      "tilecolor": "Light Purple"
+    },
+    {
+      "tilename": "BA804",
+      "src": "BA804_Purple.jpg",
+      "price": "4.00",
+      "tilecolor": "Purple"
+    },
+    {
+      "tilename": "BA805",
+      "src": "BA805_Grape.jpg",
+      "price": "4.00",
+      "tilecolor": "Grape"
+    },
+    {
+      "tilename": "BA902",
+      "src": "BA902_Dry_Ice.jpg",
+      "price": "4.00",
+      "tilecolor": "Dry Ice"
+    },
+    {
+      "tilename": "BA903",
+      "src": "BA903_Gravel.jpg",
+      "price": "4.00",
+      "tilecolor": "Gravel"
+    },
+    {
+      "tilename": "BA904",
+      "src": "BA904_Taupe.jpg",
+      "price": "4.00",
+      "tilecolor": "Taupe"
+    },
+    {
+      "tilename": "BA905",
+      "src": "BA905_Sleet.jpg",
+      "price": "4.00",
+      "tilecolor": "Sleet"
+    },
+    {
+      "tilename": "BB101",
+      "src": "BB101_Black.jpg",
+      "price": "4.50",
+      "tilecolor": "Black"
+    },
+    {
+      "tilename": "BB605",
+      "src": "BB605_Nori.jpg",
+      "price": "4.50",
+      "tilecolor": "Nori"
+    },
+    {
+      "tilename": "BB610",
+      "src": "BB610_Caper.jpg",
+      "price": "4.50",
+      "tilecolor": "Caper"
+    },
+    {
+      "tilename": "BB611",
+      "src": "BB611_Blue_Green.jpg",
+      "price": "4.50",
+      "tilecolor": "Blue Green"
+    },
+    {
+      "tilename": "BB612",
+      "src": "BB612_Green_Sea.jpg",
+      "price": "4.50",
+      "tilecolor": "Green Sea"
+    },
+    {
+      "tilename": "BB613",
+      "src": "BB613_Wave.jpg",
+      "price": "4.50",
+      "tilecolor": "Wave"
+    },
+    {
+      "tilename": "BB705",
+      "src": "BB705_Tropical.jpg",
+      "price": "4.50",
+      "tilecolor": "Tropical"
+    },
+    {
+      "tilename": "BB706",
+      "src": "BB706_Bahama_Blue.jpg",
+      "price": "4.50",
+      "tilecolor": "Bahama Blue"
+    },
+    {
+      "tilename": "BB709",
+      "src": "BB709_Cobalt.jpg",
+      "price": "4.50",
+      "tilecolor": "Cobalt"
+    },
+    {
+      "tilename": "BB710",
+      "src": "BB710_Cool_Breeze.jpg",
+      "price": "4.50",
+      "tilecolor": "Cool Breeze"
+    },
+    {
+      "tilename": "BB714",
+      "src": "BB714_Teal.jpg",
+      "price": "4.50",
+      "tilecolor": "Teal"
+    },
+    {
+      "tilename": "BB718",
+      "src": "BB718_Indigo.jpg",
+      "price": "4.50",
+      "tilecolor": "Indigo"
+    },
+    {
+      "tilename": "BB806",
+      "src": "BB806_Aubergine.jpg",
+      "price": "4.50",
+      "tilecolor": "Aubergine"
+    },
+    {
+      "tilename": "BB901",
+      "src": "BB901_Dove_Gray.jpg",
+      "price": "4.50",
+      "tilecolor": "Dove Gray"
+    },
+    {
+      "tilename": "BC401",
+      "src": "BC401_Marigold.jpg",
+      "price": "10.95",
+      "tilecolor": "Marigold"
+    },
+    {
+      "tilename": "BC402",
+      "src": "BC402_Papaya.jpg",
+      "price": "10.95",
+      "tilecolor": "Papaya"
+    },
+    {
+      "tilename": "BC403",
+      "src": "BC403_Orange.jpg",
+      "price": "10.95",
+      "tilecolor": "Orange"
+    },
+    {
+      "tilename": "BC501",
+      "src": "BC501_Tulip.jpg",
+      "price": "10.95",
+      "tilecolor": "Tulip"
+    },
+    {
+      "tilename": "BC502",
+      "src": "BC502_Lemon_Creme.jpg",
+      "price": "10.95",
+      "tilecolor": "LemonCreme"
+    },
+    {
+      "tilename": "BC503",
+      "src": "BC503_Primary_Yellow.jpg",
+      "price": "10.95",
+      "tilecolor": "Primary Yellow"
+    },
+    {
+      "tilename": "BC652",
+      "src": "BC652_Olive_Pearla.jpg",
+      "price": "10.95",
+      "tilecolor": "Olive_Pearl"
+    }
+  ];
